@@ -34,9 +34,18 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+    -An adaptive website reacts to specific coded pixel widths and loads new styling according to the width of the browser.
+    -A fully responsive website has styling that continually, and smoothly adjusts to the width of the browser.
+
 2. Describe what it means to be mobile first vs desktop first.
 
+    -Mobile first sites are built with the mobile version in mind first and then use min-width media queries to expand to higher width sizes.
+    -Desktop first sites are built with the desktop version in mind first and then use max-width media queries to shrink/adjust to smaller width sizes. 
+
+
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+
+    First the 'font-size: 62.5%' adjusts the default font-size from approx 16px to 10px. "rem" can then be used to reference to the approx 10px default font-size later on. Whatever value is chosen for the rem is essentially multiplied by 10px to acheive the desired font size. Referencing the font-size in the 'html' tag is useful so that styling within nested elements do not compound upon one another.
 
 4. How would you describe preprocessing to someone new to CSS?
 
