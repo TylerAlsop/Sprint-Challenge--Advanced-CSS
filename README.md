@@ -45,9 +45,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
-    First the 'font-size: 62.5%' adjusts the default font-size from approx 16px to 10px. "rem" can then be used to reference to the approx 10px default font-size later on. Whatever value is chosen for the rem is essentially multiplied by 10px to acheive the desired font size. Referencing the font-size in the 'html' tag is useful so that styling within nested elements do not compound upon one another.
+    First the 'font-size: 62.5%' adjusts the default font-size from approx. 16px to 10px. "rem" can then be used to reference to the approx. 10px default font-size later on. Whatever value is chosen for the rem is essentially multiplied by 10px to achieve the desired font size. Referencing the font-size in the 'html' tag is useful so that styling within nested elements do not compound upon one another.
 
 4. How would you describe preprocessing to someone new to CSS?
+
+    Preprocessing is basically using added on software to your coding so that you can use a sort of short-hand version of css, which saves precious time. The short-hand coding is done in a different file than the index.css file and the software takes your short-hand version and copies it into your index.css file using the long-hand version that your index.css file recognizes.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
