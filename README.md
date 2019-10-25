@@ -35,7 +35,6 @@ Edit this document to include your answers after each question. Make sure to lea
 1. What is the difference between an adaptive website and a fully responsive website?
 
     -An adaptive website reacts to specific coded pixel widths and loads new styling according to the width of the browser.
-    
     -A fully responsive website has styling that continually, and smoothly adjusts to the width of the browser.
 
 2. Describe what it means to be mobile first vs desktop first.
@@ -54,7 +53,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
-    I love the ability to make a bunch .less files so that it's easier to find your code for specific elements/sections of the page. I realize this can be done with .css files too so my next favorite concept is being able to nest my stying just like it appears in the html. That also makes it very convenient to sort through the code.
+    I love the ability to make a bunch of .less files so that it's easier to find your code for specific elements/sections of the page. I realize this can be done with .css files too so my next favorite concept is being able to nest my stying just like it appears in the html. That also makes it very convenient to sort through the code.
     The concept that gives me the most trouble is deciding exactly how to type out my mix-ins so that they will be useful throughout the different sections of my web page. Because needing to go back and rewrite my mix-ins, or adding more and more of them to fit every specific situation defeats the purpose of having the mix-ins in the first place.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
