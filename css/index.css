@@ -165,11 +165,28 @@ p {
 }
 .nav-container {
   border-bottom: 1px solid #dee2e6;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .nav-container nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.nav-container nav .nav-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  padding-top: 15px;
+  border: solid 1px gray;
+}
+.nav-container nav .nav-links a {
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  color: #5E6164;
+  font-size: 1.6rem;
+  line-height: 1.4;
 }
 img {
   display: block;
