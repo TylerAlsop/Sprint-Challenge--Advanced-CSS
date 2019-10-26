@@ -179,10 +179,10 @@ p {
   align-items: center;
   width: 70%;
   padding-top: 15px;
-  border: solid 1px gray;
 }
 .nav-container nav .nav-links a {
   text-decoration: none;
+  font-weight: bold;
   font-family: 'Ubuntu', sans-serif;
   color: #5E6164;
   font-size: 1.6rem;
@@ -246,6 +246,18 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  width: 30%;
+  height: 3rem;
+  font-size: 1.5rem;
+  text-align: center;
+  text-height: center;
+  font-weight: bold;
+  color: #F6F7F8;
+  background-color: #22283A;
+  border: 1px solid #F1F1F1;
+  border-radius: 8px;
 }
 .home .walk .walk-img {
   width: 46%;
