@@ -297,6 +297,11 @@ footer {
   border: 1px solid #F1F1F1;
   border-radius: 8px;
 }
+.home .walk .walk-text .btn:hover {
+  color: #22283A;
+  background-color: #F6F7F8;
+  border: 2px solid #22283A;
+}
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
     width: 100%;
