@@ -20,11 +20,25 @@
     flex-wrap: wrap;
     width: 100%;
 
+    @media @mobile {
+      #img-2 {
+        display: none;
+      }
+      #img-3 {
+        display: none;
+      }
+    }
+
+
     img {
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+
+      @media @mobile {
+        width: 100%;
+      }
     }
   }
 
@@ -46,6 +60,8 @@
     padding: 50px 60px;
     display: flex;
     justify-content: center;
+
+    
 
     .walk-text {
       width: 50%;
