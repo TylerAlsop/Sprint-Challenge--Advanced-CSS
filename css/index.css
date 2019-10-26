@@ -148,6 +148,9 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #23293B;
 }
+h1 {
+  font-size: 3.6rem;
+}
 h2 {
   font-size: 3.2rem;
 }
@@ -164,7 +167,7 @@ p {
   margin: 0 auto;
 }
 .nav-container {
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 0.5px solid #dee2e6;
   padding-top: 15px;
   padding-bottom: 15px;
 }
