@@ -1,1 +1,33 @@
 // Navigation code here
+.nav-container {
+    .border-b();
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    nav {
+        .flex-fd-a (column, center);
+    
+        .nav-links {
+            .flex-j-a (space-around, center);
+            width: 70%;
+            padding-top: 15px;
+            
+            a {
+                text-decoration: none;
+                font-weight: bold;
+                font-family: 'Ubuntu', sans-serif;
+                color: @main-font-color;
+                font-size: 1.6rem;
+                line-height: 1.4;
+            }//End a
+        }//End .nav-links
+    }//End nav
+}//End .nav-container
+
+img {
+    display: block;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+}

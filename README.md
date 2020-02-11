@@ -34,13 +34,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+    -An adaptive website only adjusts its styling when the browser reaches specific coded widths.
+    -A fully responsive website has styling that continually, and smoothly adjusts to the width of the browser no matter what the width.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+    -Mobile first sites are built with the mobile version in mind first and then use min-width media queries to expand to higher width sizes.
+    -Desktop first sites are built with the desktop version in mind first and then use max-width media queries to shrink/adjust to smaller width sizes. 
+
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+    First the 'font-size: 62.5%' adjusts the default font-size from approx. 16px to 10px. "rem" can then be used to reference to the approx. 10px default font-size later on. Whatever value is chosen for the rem is essentially multiplied by 10px to achieve the desired font size. Referencing the font-size in the 'html' tag is useful so that styling within nested elements do not compound upon one another.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+    Preprocessing is basically using added on software to your coding so that you can use a sort of short-hand version of css, which saves precious time. The short-hand coding is done in a different file than the index.css file and the software takes your short-hand version and copies it into your index.css file using the long-hand version that your index.css file recognizes.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+    I love the ability to make a bunch of .less files so that it's easier to find your code for specific elements/sections of the page. I realize this can be done with .css files too so my next favorite concept is being able to nest my stying just like it appears in the html. That also makes it very convenient to sort through the code.
+    The concept that gives me the most trouble is deciding exactly how to type out my mix-ins so that they will be useful throughout the different sections of my web page. Because needing to go back and rewrite my mix-ins, or adding more and more of them to fit every specific situation defeats the purpose of having the mix-ins in the first place.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
